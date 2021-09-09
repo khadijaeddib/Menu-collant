@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.main-header {
+    background-color: #FFF;
+}
+h1 {
+    font-size: 20px;
+    line-height: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    border-top: 1px solid #bababa;
+}
+.menu a {
+    text-decoration: none;
+    color: #505050;
+    border-right: 1px solid #bababa;
+    padding: 15px 30px;
+}
+.menu a:hover {
+    background-color: #eeebeb;
+
+}
+main {
+    display: flex; 
+    padding-top: 20px; 
+}
+.articles {
+    flex: 4;
+    padding: 0 20px;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+h2 {
+    font-size: 40px;
+    line-height: 80px;
+}
+.background {
+    background-color: #d5d5d5;
+    height: 4000px;
+    margin-top: 10px;
+}
+.main-aside {
+    flex: 1.2; 
+}
+.main-sidebar {
+    width: 90%;
+    border: 2px dashed #bababa;
+    height: 600px;
+    position: relative;
+}
+.main-aside-presentation {
+    background-color: #FFF;
+    padding: 20px 10px;
+    z-index: 1;
+}
+.main-aside-presentation p {
+    padding-bottom: 10px;
+}
+.main-aside-presentation a {
+    color: blue;
+}
+.main-aside-content {
+    background-color:#FFF;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.menu-collant{
+    background-color: rgba(256, 256, 256, 0.9);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+.aside-collant{
+    position: fixed;
+    z-index: 1;
+    width: 19.4%;
+}
+
